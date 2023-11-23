@@ -27,6 +27,15 @@ One day, I learned about RS-school. Actually, I’m here and this is my first pr
 - Git
 - React
 
+## **Code examples**
+
+```javascript
+let items = [1, 2, 2, 3, 4, 4, 5];
+
+let uniqueItems = items.reduce((unique, item) => { if (!unique.includes(item)) unique.push(item);
+    return unique;
+}, []); // [1, 2, 3, 4, 5]
+
 
 ## **Languages**
 
